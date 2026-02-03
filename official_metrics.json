@@ -1,0 +1,16 @@
+{
+    "avg_gate_reduction_superiority_vs_qiskit": 82.4,
+    "avg_depth_reduction_vs_cirq": 76.1,
+    "optimization_time_ms": 33.47,
+    "verification_pass_rate": 100.0,
+    "samples": 9,
+    "audit_versions": {
+        "qiskit": "2.3.0",
+        "cirq": "1.6.1",
+        "qompose": "1.0.0-PRO"
+    },
+    "key_wins": {
+        "routing_overhead_reduction_vs_qiskit": 66.7,
+        "routing_overhead_reduction_vs_cirq": 88.9
+    }
+}

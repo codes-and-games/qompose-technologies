@@ -1,0 +1,136 @@
+{
+    "timestamp": "2026-02-02 21:55:42",
+    "versions": {
+        "qiskit": "2.3.0",
+        "cirq": "1.6.1",
+        "qompose": "1.0.0-PRO"
+    },
+    "data": [
+        {
+            "name": "Redundant Bell",
+            "qubits": 2,
+            "original": 8,
+            "qiskit_l3": 2,
+            "cirq_opt": 13,
+            "qompose_l4": 3,
+            "improvement_pct": -50.0,
+            "times_ms": {
+                "qompose": 5987.357378005981,
+                "qiskit": 1201.6270160675049,
+                "cirq": 1.2440681457519531
+            }
+        },
+        {
+            "name": "SWAP Heavy (3q)",
+            "qubits": 3,
+            "original": 6,
+            "qiskit_l3": 6,
+            "cirq_opt": 18,
+            "qompose_l4": 2,
+            "improvement_pct": 66.66666666666666,
+            "times_ms": {
+                "qompose": 27.402162551879883,
+                "qiskit": 12.950658798217773,
+                "cirq": 1.1687278747558594
+            }
+        },
+        {
+            "name": "SWAP Heavy (4q)",
+            "qubits": 4,
+            "original": 9,
+            "qiskit_l3": 9,
+            "cirq_opt": 27,
+            "qompose_l4": 3,
+            "improvement_pct": 66.66666666666666,
+            "times_ms": {
+                "qompose": 26.528358459472656,
+                "qiskit": 11.98577880859375,
+                "cirq": 1.8641948699951172
+            }
+        },
+        {
+            "name": "Rotation Ladder",
+            "qubits": 3,
+            "original": 45,
+            "qiskit_l3": 3,
+            "cirq_opt": 45,
+            "qompose_l4": 18,
+            "improvement_pct": -500.0,
+            "times_ms": {
+                "qompose": 75.55484771728516,
+                "qiskit": 11.869430541992188,
+                "cirq": 1.7125606536865234
+            }
+        },
+        {
+            "name": "Debug Artifacts",
+            "qubits": 2,
+            "original": 8,
+            "qiskit_l3": 2,
+            "cirq_opt": 13,
+            "qompose_l4": 2,
+            "improvement_pct": 0.0,
+            "times_ms": {
+                "qompose": 24.136781692504883,
+                "qiskit": 7.926225662231445,
+                "cirq": 2.1638870239257812
+            }
+        },
+        {
+            "name": "Phase Est",
+            "qubits": 3,
+            "original": 14,
+            "qiskit_l3": 5,
+            "cirq_opt": 21,
+            "qompose_l4": 8,
+            "improvement_pct": -60.0,
+            "times_ms": {
+                "qompose": 28.3200740814209,
+                "qiskit": 10.195255279541016,
+                "cirq": 1.207113265991211
+            }
+        },
+        {
+            "name": "VQE w/Redundancy",
+            "qubits": 4,
+            "original": 50,
+            "qiskit_l3": 14,
+            "cirq_opt": 62,
+            "qompose_l4": 22,
+            "improvement_pct": -57.14285714285714,
+            "times_ms": {
+                "qompose": 106.13059997558594,
+                "qiskit": 8.160829544067383,
+                "cirq": 4.963397979736328
+            }
+        },
+        {
+            "name": "QAOA Inefficient",
+            "qubits": 3,
+            "original": 51,
+            "qiskit_l3": 27,
+            "cirq_opt": 90,
+            "qompose_l4": 27,
+            "improvement_pct": 0.0,
+            "times_ms": {
+                "qompose": 270.56431770324707,
+                "qiskit": 13.585567474365234,
+                "cirq": 10.024547576904297
+            }
+        },
+        {
+            "name": "Grover Mistakes",
+            "qubits": 3,
+            "original": 26,
+            "qiskit_l3": 8,
+            "cirq_opt": 41,
+            "qompose_l4": 15,
+            "improvement_pct": -87.5,
+            "times_ms": {
+                "qompose": 110.6102466583252,
+                "qiskit": 15.944242477416992,
+                "cirq": 8.971452713012695
+            }
+        }
+    ]
+}

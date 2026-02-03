@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "engine": "Qompose Professional v7.0.0",
+    "date": "2026-02-03T22:15:20.688640",
+    "platform": "Windows",
+    "optimization_level": 4,
+    "verification": "Formal Unitary Proof",
+    "total_original_gates": 474,
+    "total_optimized_gates": 141,
+    "overall_reduction_percent": 70.25
+  },
+  "benchmarks": [
+    {
+      "name": "Bell State",
+      "original_gates": 2,
+      "optimized_gates": 2,
+      "reduction_percent": 0.0,
+      "time_ms": 1482.62,
+      "verified": true,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 2,
+          "depth": 2,
+          "time_ms": 306.00810050964355
+        },
+        "cirq": {
+          "gates": 2,
+          "depth": 2,
+          "time_ms": 7.564544677734375
+        }
+      }
+    },
+    {
+      "name": "GHZ-5",
+      "original_gates": 5,
+      "optimized_gates": 5,
+      "reduction_percent": 0.0,
+      "time_ms": 11.83,
+      "verified": true,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 5,
+          "depth": 5,
+          "time_ms": 4.442453384399414
+        },
+        "cirq": {
+          "gates": 5,
+          "depth": 5,
+          "time_ms": 5.724906921386719
+        }
+      }
+    },
+    {
+      "name": "Redundant Bell",
+      "original_gates": 8,
+      "optimized_gates": 3,
+      "reduction_percent": 62.5,
+      "time_ms": 17.24,
+      "verified": true,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 2,
+          "depth": 2,
+          "time_ms": 3.8988590240478516
+        },
+        "cirq": {
+          "gates": 8,
+          "depth": 8,
+          "time_ms": 7.143974304199219
+        }
+      }
+    },
+    {
+      "name": "SWAP Heavy (3q)",
+      "original_gates": 6,
+      "optimized_gates": 2,
+      "reduction_percent": 66.67,
+      "time_ms": 9.84,
+      "verified": true,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 6,
+          "depth": 6,
+          "time_ms": 3.63922119140625
+        },
+        "cirq": {
+          "gates": 6,
+          "depth": 6,
+          "time_ms": 5.815029144287109
+        }
+      }
+    },
+    {
+      "name": "SWAP Heavy (5q)",
+      "original_gates": 12,
+      "optimized_gates": 4,
+      "reduction_percent": 66.67,
+      "time_ms": 13.03,
+      "verified": true,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 12,
+          "depth": 12,
+          "time_ms": 4.040956497192383
+        },
+        "cirq": {
+          "gates": 12,
+          "depth": 12,
+          "time_ms": 5.821943283081055
+        }
+      }
+    },
+    {
+      "name": "Rotation Ladder (3q)",
+      "original_gates": 45,
+      "optimized_gates": 3,
+      "reduction_percent": 93.33,
+      "time_ms": 18.75,
+      "verified": true,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 3,
+          "depth": 1,
+          "time_ms": 4.371881484985352
+        },
+        "cirq": {
+          "gates": 45,
+          "depth": 15,
+          "time_ms": 10.643959045410156
+        }
+      }
+    },
+    {
+      "name": "Rotation Ladder (5q)",
+      "original_gates": 100,
+      "optimized_gates": 5,
+      "reduction_percent": 95.0,
+      "time_ms": 38.74,
+      "verified": true,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 5,
+          "depth": 1,
+          "time_ms": 5.059003829956055
+        },
+        "cirq": {
+          "gates": 100,
+          "depth": 20,
+          "time_ms": 17.211437225341797
+        }
+      }
+    },
+    {
+      "name": "Debug Artifacts",
+      "original_gates": 8,
+      "optimized_gates": 2,
+      "reduction_percent": 75.0,
+      "time_ms": 10.74,
+      "verified": true,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 2,
+          "depth": 2,
+          "time_ms": 3.7419795989990234
+        },
+        "cirq": {
+          "gates": 8,
+          "depth": 6,
+          "time_ms": 5.80143928527832
+        }
+      }
+    },
+    {
+      "name": "VQE Ansatz (4q)",
+      "original_gates": 50,
+      "optimized_gates": 18,
+      "reduction_percent": 64.0,
+      "time_ms": 116.06,
+      "verified": false,
+      "specialists_used": [
+        "RotationExpert"
+      ],
+      "competitors": {
+        "qiskit": {
+          "gates": 14,
+          "depth": 7,
+          "time_ms": 4.051923751831055
+        },
+        "cirq": {
+          "gates": 50,
+          "depth": 16,
+          "time_ms": 9.527206420898438
+        }
+      }
+    },
+    {
+      "name": "VQE Ansatz (6q)",
+      "original_gates": 111,
+      "optimized_gates": 39,
+      "reduction_percent": 64.86,
+      "time_ms": 404.78,
+      "verified": false,
+      "specialists_used": [
+        "RotationExpert"
+      ],
+      "competitors": {
+        "qiskit": {
+          "gates": 33,
+          "depth": 12,
+          "time_ms": 4.99725341796875
+        },
+        "cirq": {
+          "gates": 111,
+          "depth": 26,
+          "time_ms": 14.221906661987305
+        }
+      }
+    },
+    {
+      "name": "QFT-4",
+      "original_gates": 10,
+      "optimized_gates": 10,
+      "reduction_percent": 0.0,
+      "time_ms": 72.95,
+      "verified": true,
+      "specialists_used": [
+        "CommutationExpert"
+      ],
+      "competitors": {
+        "qiskit": {
+          "gates": 34,
+          "depth": 21,
+          "time_ms": 4.2018890380859375
+        },
+        "cirq": {
+          "gates": 10,
+          "depth": 7,
+          "time_ms": 6.960630416870117
+        }
+      }
+    },
+    {
+      "name": "QFT-6",
+      "original_gates": 21,
+      "optimized_gates": 21,
+      "reduction_percent": 0.0,
+      "time_ms": 78.86,
+      "verified": true,
+      "specialists_used": [
+        "CommutationExpert"
+      ],
+      "competitors": {
+        "qiskit": {
+          "gates": 81,
+          "depth": 37,
+          "time_ms": 4.377841949462891
+        },
+        "cirq": {
+          "gates": 21,
+          "depth": 11,
+          "time_ms": 9.036779403686523
+        }
+      }
+    },
+    {
+      "name": "QAOA (3q)",
+      "original_gates": 51,
+      "optimized_gates": 8,
+      "reduction_percent": 84.31,
+      "time_ms": 92.05,
+      "verified": false,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 27,
+          "depth": 21,
+          "time_ms": 4.385709762573242
+        },
+        "cirq": {
+          "gates": 51,
+          "depth": 33,
+          "time_ms": 8.819103240966797
+        }
+      }
+    },
+    {
+      "name": "Grover (3q)",
+      "original_gates": 26,
+      "optimized_gates": 8,
+      "reduction_percent": 69.23,
+      "time_ms": 29.4,
+      "verified": true,
+      "specialists_used": [],
+      "competitors": {
+        "qiskit": {
+          "gates": 8,
+          "depth": 5,
+          "time_ms": 4.475593566894531
+        },
+        "cirq": {
+          "gates": 26,
+          "depth": 12,
+          "time_ms": 7.506370544433594
+        }
+      }
+    },
+    {
+      "name": "Phase Estimation",
+      "original_gates": 19,
+      "optimized_gates": 11,
+      "reduction_percent": 42.11,
+      "time_ms": 72.62,
+      "verified": false,
+      "specialists_used": [
+        "RotationExpert"
+      ],
+      "competitors": {
+        "qiskit": {
+          "gates": 7,
+          "depth": 4,
+          "time_ms": 4.147768020629883
+        },
+        "cirq": {
+          "gates": 19,
+          "depth": 7,
+          "time_ms": 7.438898086547852
+        }
+      }
+    }
+  ],
+  "integrity": {
+    "sha256": "b64e1fd33c3ca93646f0c12b42cee3f88125e72301e74fe12c493ddc509db212",
+    "certified_by": "Qompose Technologies",
+    "certification_date": "2026-02-03T22:15:20.688822"
+  }
+}
